@@ -6,8 +6,10 @@ repository: https://github.com/Fluttering-Health/ksuid
 issue_tracker: https://github.com/Fluttering-Health/ksuid/issues
 
 environment:
-  sdk: '>=2.12.0-0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
+dependencies:
+  convert: ^3.0.1
 
 dev_dependencies:
   lints: ^1.0.0
